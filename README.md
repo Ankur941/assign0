@@ -1,4 +1,4 @@
-## Inheritance
+## Inheritance, Interfaces, Encapsulation and Polymorphism
 DocViewer
 Page
 of 2
