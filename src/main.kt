@@ -18,7 +18,7 @@ abstract class Shape : Dimensionable {
 
     fun displayInfo() {
         println("Shape: $name")
-        println("Area: ${area()}")
+        println("Area: ${area()} unit")
         //println("Perimeter: ${perimeter()}")
         printDimensions()
         println()
@@ -33,7 +33,7 @@ class Square(private val side: Double) : Shape() {
     //override fun perimeter(): Double = 4 * side
 
     override fun printDimensions() {
-        println("Side: $side")
+        println("Side: $side unit")
     }
 }
 
@@ -45,7 +45,7 @@ class Circle(private val radius: Double) : Shape() {
     //override fun perimeter(): Double = 2 * PI * radius
 
     override fun printDimensions() {
-        println("Radius: $radius")
+        println("Radius: $radius unit")
     }
 }
 
@@ -61,7 +61,7 @@ open class Triangle(val a: Double, val b: Double, val c: Double) : Shape() {
    // override fun perimeter(): Double = a + b + c
 
     override fun printDimensions() {
-        println("Sides: a=$a, b=$b, c=$c")
+        println("Sides: a=$a unit, b=$b unit, c=$c unit")
     }
 }
 
@@ -74,7 +74,7 @@ class EquilateralTriangle(private val side: Double) : Triangle(side, side, side)
     //override fun perimeter(): Double = 3 * side
 
     override fun printDimensions() {
-        println("Side: $side")
+        println("Side: $side unit")
     }
 }
 
