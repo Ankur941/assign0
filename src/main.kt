@@ -80,13 +80,13 @@ class EquilateralTriangle(private val side: Double) : Triangle(side, side, side)
 
 
 fun main() {
-    val square = Square(4.9)
+    val square = Square(9.9)
     square.displayInfo()
 
-    val circle = Circle(3.0)
+    val circle = Circle(6.1)
     circle.displayInfo()
 
-    val triangle = Triangle(3.0, 4.0, 5.0)
+    val triangle = Triangle(3.0, 7.0, 5.0)
     triangle.displayInfo()
 
     val eqTriangle = EquilateralTriangle(6.0)
